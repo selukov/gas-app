@@ -1,0 +1,30 @@
+{
+  "name": "gas-pdf-form",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon --watch ./src -e html,js,vue  --exec \"npm run build\" ",
+    "build": "parcel build ./src/index.html --dist-dir ./appsscript",
+    "glogin": "clasp login",
+    "glogout": "clasp logout",
+    "gpull": "clasp pull",
+    "gpush": "clasp push",
+    "gcreate": "clasp create --title \"First Form Vue\"  --rootDir ./appsscript",
+    "gstart": "clasp push --watch",
+    "format": "prettier --write src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@parcel/transformer-vue": "^2.10.3",
+    "@types/google-apps-script": "^1.0.78",
+    "nodemon": "^3.0.2",
+    "parcel": "^2.10.3",
+    "prettier": "3.1.1"
+  },
+  "dependencies": {
+    "vue": "^3.3.12"
+  }
+}
