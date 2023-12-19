@@ -4,14 +4,14 @@
 
 – retrieves the ~/.clasprc.json file with the key.
    ```bash
-   npm glogin
+   npm run glogin
    ```
 – creates a project; in the console, select 'form'.
 
    ```bash
    npm run gcreate
    ```
-
+After executing the gcreate command, you will find files in the 'appsscript' directory. Copy the .clasp.json file to the project's root.
 
 
 ## The project was created using the following console commands:
