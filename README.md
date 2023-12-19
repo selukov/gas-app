@@ -1,5 +1,19 @@
 # This is a template for Google Apps Script projects.
 
+## To get started, execute the following commands.
+
+– retrieves the ~/.clasprc.json file with the key.
+   ```bash
+   npm glogin
+   ```
+– creates a project; in the console, select 'form'.
+
+   ```bash
+   npm run gcreate
+   ```
+
+
+
 ## The project was created using the following console commands:
 
 1. Initializes a `package.json` file in the current directory with default values.
